@@ -1,63 +1,49 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Paul Devianne",
+    "email": "pauldevianne@gmail.com",
+    "phone": "+33 7 69 66 93 62",
+    "website": "https://p-devianne.github.ios",
+    "summary": "I am a 24yo Master student in Computational Science and Engineering at EPFL, Switzerland. Currently, I am doing a 6-month research thesis at NUS, Singapore, working on Equivariant Neural Networks for Ion transport simulation. ",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "address": "16 Stirling Road",
+      "postalCode": "148951",
+      "city": "Singapore",
+      "countryCode": "SG",
+      "region": "Singapore"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
         "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "username": "Paul Devianne",
+        "url": "https://orcid.org/0009-0004-9614-8970"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "p-devianne",
+        "url": "https://github.com/p-devianne"
       }
     ]
   },
   "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "EPFL",
+      "area": "Master in Computational Science and Engineering",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "startDate": "09/2022",
+      "endDate": "09/2025",
+      "gpa": 3.5,
+      "courses": ["Machine Learning", "Reinforcement Learning", "Computational Physics", "Instability Physics", "Algorithms", "Parallel & High-performance Computing"]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
+      "institution": "EPFL",
+      "area": "BSc in Physics",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "startDate": "09/2019",
+      "endDate": "09/2022",
+      "gpa": 3.4,
+      "courses": ["Advanced Calculus I, II, III, IV", "Advanced Linear Algebra I, II", "Classical Mechanics", "Quantum Mechanics", "Thermodynamics", "Statistical Physics", "Electromagnetism", "Mathematical Methods for Physics", "Computational Physics"]
     }
   ],
   "skills": [],
