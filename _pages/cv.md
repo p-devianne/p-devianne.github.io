@@ -8,7 +8,7 @@ author_profile: true
 <div class="card">
   <h2>Download CV</h2>
   <div class="project-content">
-    <a href="/files/CV_Paul_Devianne.pdf" class="btn" download="CV_Paul_Devianne.pdf">Download Full CV (PDF)</a>
+    <a href="https://p-devianne.github.io/files/CV_Paul_Devianne.pdf" class="btn" download="CV_Paul_Devianne.pdf">Download Full CV (PDF)</a>
   </div>
 </div>
 
