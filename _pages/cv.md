@@ -8,7 +8,15 @@ author_profile: true
 <div class="card">
   <h2>Download CV</h2>
   <div class="project-content">
-    <a href="https://p-devianne.github.io/files/CV_Paul_Devianne.pdf" class="btn" download>Download Full CV (PDF)</a>
+    <p>
+      <a href="https://p-devianne.github.io/files/CV_Paul_Devianne.pdf" 
+         class="btn" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         onclick="window.open(this.href); return false;">
+        Download Full CV (PDF)
+      </a>
+    </p>
   </div>
 </div>
 
