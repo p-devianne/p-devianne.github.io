@@ -1,64 +1,61 @@
 ---
-layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
+layout: single
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+## Download CV
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+[Download my full CV in PDF format](path/to/your/cv.pdf)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Contact Information
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **Email**: [Your Email]
+- **Phone**: [Your Phone]
+- **Location**: [Your Location]
+- **Website**: [Your Website]
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Education
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+[Your education history]
+
+## Professional Experience
+
+[Your professional experience]
+
+## Research Experience
+
+[Your research experience]
+
+## Teaching Experience
+
+[Your teaching experience]
+
+## Publications
+
+[Your publications]
+
+## Grants & Awards
+
+[Your grants and awards]
+
+## Professional Service
+
+[Your professional service activities]
+
+## Skills
+
+### Technical Skills
+- [Skill 1]
+- [Skill 2]
+- [Skill 3]
+
+### Languages
+- [Language 1]: [Proficiency]
+- [Language 2]: [Proficiency]
+
+### Software & Tools
+- [Tool 1]
+- [Tool 2]
+- [Tool 3]
