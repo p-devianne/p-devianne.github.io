@@ -1,0 +1,5 @@
+# SSL Configuration
+ssl:
+  enabled: true
+  cert: cert.pem
+  key: key.pem 

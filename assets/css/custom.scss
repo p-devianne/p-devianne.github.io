@@ -1,0 +1,250 @@
+// Custom animations and modern styling
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+// Modern color scheme
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #3b82f6;
+  --text-color: #1f2937;
+  --background-color: #ffffff;
+  --card-background: #f9fafb;
+  --border-color: #e5e7eb;
+}
+
+// Smooth scrolling
+html {
+  scroll-behavior: smooth;
+}
+
+// Modern typography
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+// Card animations and styling
+.page__content {
+  .card {
+    background: var(--card-background);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+// Section animations
+.archive__item {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+  
+  @for $i from 1 through 10 {
+    &:nth-child(#{$i}) {
+      animation-delay: #{$i * 0.1}s;
+    }
+  }
+}
+
+// Project cards
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--card-background);
+  transition: all 0.3s ease;
+  
+  img {
+    transition: transform 0.5s ease;
+  }
+  
+  &:hover {
+    img {
+      transform: scale(1.05);
+    }
+  }
+  
+  .project-content {
+    padding: 1.5rem;
+  }
+}
+
+// Modern buttons
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: var(--secondary-color);
+    transform: translateY(-2px);
+  }
+}
+
+// Animations
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Timeline styling for experience and education
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--primary-color);
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      left: -2.5rem;
+      top: 0.5rem;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      background: var(--primary-color);
+    }
+  }
+}
+
+// Publication list styling
+.publication-list {
+  .publication-item {
+    padding: 1rem;
+    border-radius: 8px;
+    background: var(--card-background);
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: translateX(10px);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+// Skills section styling
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  
+  .skill-item {
+    padding: 1rem;
+    background: var(--card-background);
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .timeline {
+    padding-left: 1.5rem;
+  }
+}
+
+// Projects grid layout
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  
+  .project-card {
+    background: var(--card-background);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+    
+    .project-image {
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%; // 16:9 aspect ratio
+      
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+    }
+    
+    .project-content {
+      padding: 1.5rem;
+      
+      h3 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+      }
+      
+      .project-details {
+        p {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+// Course details styling
+.course-details {
+  p {
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Education details styling
+.education-details {
+  p {
+    margin-bottom: 0.5rem;
+  }
+} 
